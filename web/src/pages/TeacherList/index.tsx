@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './styles.css';
 import PageHeader from '../../components/PageHeader';
+
+import './styles.css';
+import TeacherItem from '../../components/TeacherItem';
 
 function TeacherList () {
     return (
@@ -25,6 +27,12 @@ function TeacherList () {
                     </div>
                 </form>
             </PageHeader>
+
+            <main>
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+            </main>
         </div>
     );
 }
