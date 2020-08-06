@@ -19,7 +19,6 @@ function TeacherList () {
                             { value: 'Artes', label: 'Artes'},
                             { value: 'Biologia', label: 'Biologia'},
                             { value: 'Ciências', label: 'Ciências'},
-                            { value: 'Educação física', label: 'Educação física'},
                             { value: 'Física', label: 'Física'},
                             { value: 'Química', label: 'Química'},
                             { value: 'Geografia', label: 'Geografia'},
