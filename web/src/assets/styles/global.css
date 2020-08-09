@@ -1,17 +1,17 @@
 :root {
     --color-background: #F0F0F7;
-    --color-primary-lighter: #9871F5;
-    --color-primary-light: #916BEA;
-    --color-primary: #8257E5;
-    --color-primary-dark: #774DD6;
+    --color-primary-lighter: #66C7CC;
+    --color-primary-light: #3BACB1;
+    --color-primary: #57AFE5;
+    --color-primary-dark: #218FD4;
     --color-primary-darker: #6842C2;
-    --color-secundary: #04D361;
-    --color-secundary-dark: #04BF58;
+    --color-secundary: #EC839E;
+    --color-secundary-dark: #e5577b;
     --color-title-in-primary: #FFFFFF;
-    --color-text-in-primary: #D4C2FF;
-    --color-text-title: #32264D;
-    --color-text-complement: #9C98A6;
-    --color-text-base: #6A6180;
+    --color-text-in-primary: #c2d4ff;
+    --color-text-title: #26304D;
+    --color-text-complement: #989CA6;
+    --color-text-base: #617380;
     --color-line-in-white: #E6E6F0;
     --color-input-background: #F8F8FC;
     --color-button-text: #FFFFFF;
