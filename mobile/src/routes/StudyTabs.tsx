@@ -34,7 +34,7 @@ function StudyTabs() {
                 inactiveBackgroundColor: '#FAFAFC',
                 activeBackgroundColor: '#EBEBF5',
                 inactiveTintColor: '#C1BCCC',
-                activeTintColor: '#32264D'
+                activeTintColor: '#26304D'
             }}
         >
             <Screen
@@ -44,7 +44,7 @@ function StudyTabs() {
                     tabBarLabel: "Proffys",
                     tabBarIcon: ({ color, size, focused }) => {
                         return (
-                            <Ionicons name="ios-easel" size={size} color={focused ? '#8257EC' : color} />
+                            <Ionicons name="ios-easel" size={size} color={focused ? '#57AFE5' : color} />
                         );
                     }
                 }}
@@ -56,7 +56,7 @@ function StudyTabs() {
                     tabBarLabel: 'Favoritos',
                     tabBarIcon: ({ color, size, focused }) => {
                         return (
-                            <Ionicons name='ios-heart' size={size} color={focused ? '#8257EC' : color} />
+                            <Ionicons name='ios-heart' size={size} color={focused ? '#57AFE5' : color} />
                         );
                     }
                 }}
