@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, ScrollView, Text, TextInput } from 'react-native';
+import { Picker } from '@react-native-community/picker';
 
 import styles from './styles';
 import PageHeader from '../../components/PageHeader';
@@ -66,24 +67,40 @@ function TeacherList() {
                 { isFiltersVisible && (
                     <View style={styles.searchForm}>
                         <Text style={styles.label}>Matéria</Text>
-                        <TextInput
+                        <Picker
+                            selectedValue={subject}
+                            onValueChange={(itemValue) => setSubject(itemValue as string)}
                             style={styles.input}
-                            value={subject}
-                            onChangeText={text => setSubject(text)}
-                            placeholder="Qual a matéria?"
-                            placeholderTextColor="#C1BCCC"
-                        />
+                        >
+                            <Picker.Item label="Qual a matéria?" value="" />
+                            <Picker.Item label="Artes" value="Artes" />
+                            <Picker.Item label="Biologia" value="Biologia" />
+                            <Picker.Item label="Física" value="Física" />
+                            <Picker.Item label="Química" value="Química" />
+                            <Picker.Item label="Geografia" value="Geografia" />
+                            <Picker.Item label="História" value="História" />
+                            <Picker.Item label="Matemática" value="Matemática" />
+                            <Picker.Item label="Português" value="Português" />
+                            <Picker.Item label="Inglês" value="Inglês" />
+                        </Picker>
 
                         <View style={styles.inputGroup}>
                             <View style={styles.inputBlock}>
                                 <Text style={styles.label}>Dia da semana</Text>
-                                <TextInput
+                                <Picker
+                                    selectedValue={week_day}
+                                    onValueChange={(itemValue) => setWeekDay(itemValue as string)}
                                     style={styles.input}
-                                    value={week_day}
-                                    onChangeText={text => setWeekDay(text)}
-                                    placeholder="Qual o dia?"
-                                    placeholderTextColor="#C1BCCC"
-                                />
+                                >
+                                    <Picker.Item label="Qual o dia?" value="" />
+                                    <Picker.Item label="Domingo" value="0" />
+                                    <Picker.Item label="Segunda-feira" value="1" />
+                                    <Picker.Item label="Terça-feira" value="2" />
+                                    <Picker.Item label="Quarta-feira" value="3" />
+                                    <Picker.Item label="Quinta-feira" value="4" />
+                                    <Picker.Item label="Sexta-feira" value="5" />
+                                    <Picker.Item label="Sábado" value="6" />
+                                </Picker>
                             </View>
 
                             <View style={styles.inputBlock}>
