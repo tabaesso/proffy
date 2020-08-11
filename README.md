@@ -1,4 +1,4 @@
-# Proffy
+# Proffy 👩🏻‍🏫
 
 ## Versão 1.0
 
