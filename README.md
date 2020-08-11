@@ -10,7 +10,7 @@
 - Tema da aplicação em tons pastéis para passar tranquilidade aos futuros alunos
 - Total de conexões já realizadas pela aplicação
 
-# Versão 2.0 (em desenvolvimento)
+## Versão 2.0 (em desenvolvimento)
 
 ## Novas features
 
