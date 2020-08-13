@@ -1,4 +1,67 @@
-<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M80 105H40C26.195 105 15 93.805 15 80V40C15 26.195 26.195 15 40 15H80C93.805 15 105 26.195 105 40V80C105 93.805 93.805 105 80 105Z" stroke="#04D361" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M71.3344 55L57.1694 69.165L48.6694 60.665" stroke="#04D361" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="success-check-icon.svg"
+   id="svg3007"
+   version="1.1"
+   fill="none"
+   viewBox="0 0 120 120"
+   height="120"
+   width="120">
+  <metadata
+     id="metadata3013">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3011" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg3007"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="60"
+     inkscape:cx="17.063197"
+     inkscape:zoom="4.4833333"
+     showgrid="false"
+     id="namedview3009"
+     inkscape:window-height="705"
+     inkscape:window-width="1366"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     style="stroke:#ec839e;stroke-opacity:1"
+     id="path3003"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="6"
+     stroke="#04D361"
+     d="M80 105H40C26.195 105 15 93.805 15 80V40C15 26.195 26.195 15 40 15H80C93.805 15 105 26.195 105 40V80C105 93.805 93.805 105 80 105Z" />
+  <path
+     style="stroke:#ec839e;stroke-opacity:1"
+     id="path3005"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     stroke-width="6"
+     stroke="#04D361"
+     d="M71.3344 55L57.1694 69.165L48.6694 60.665" />
 </svg>
