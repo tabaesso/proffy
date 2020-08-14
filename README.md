@@ -18,8 +18,8 @@ O que vai ter de bom na nova versão da aplicação?
 
 | Feature | Available          |
 | ------- | ------------------ |
-| Novo layout para as novas features   | :heavy_minus_sign: |
-| Autenticação de usuários             | :heavy_minus_sign: |
+| Novo layout para as novas features   | :soon:             |
+| Autenticação de usuários             | :soon:             |
 | Recuperação de senhas                | :heavy_minus_sign: |
 | Perfil do Proffy                     | :heavy_minus_sign: |
 | Splash Screen - versão mobile        | :white_check_mark: |
