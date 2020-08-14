@@ -26,4 +26,4 @@ O que vai ter de bom na nova versão da aplicação?
 | Paginação na lista de Proffys        | :heavy_minus_sign: |
 | Salvar os Proffys favoritos          | :heavy_minus_sign: |
 | Logout da aplicação                  | :heavy_minus_sign: |
-| Deploy da aplicação                  | :heavy_minus_sign: |
+| Deploy da aplicação                  | :white_check_mark: |
